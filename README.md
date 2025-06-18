@@ -1,4 +1,4 @@
-# mBiome Toolkit 
+# Microbiome Toolkit 
 
 [![Build Status](https://github.com/bdsl-lab/mbiomekit/actions/workflows/ci.yml/badge.svg)](https://github.com/bdsl-lab/mbiomekit/actions)
 [![Coverage Status](https://coveralls.io/repos/github/bdsl-lab/mbiomekit/badge.svg?branch=main)](https://coveralls.io/github/bdsl-lab/mbiomekit?branch=main)
@@ -10,14 +10,16 @@ A collection of Python toolkits for microbiome analysis.
 
 ### From PyPI
 
+Not implemented yet
+
 ```bash
-pip install my_package
+pip install mbiomekit
 ```
 
 ### From source 
 
-git clone https://github.com/yourusername/python_app_template.git
-cd python_app_template
+git clone https://github.com/bdsl-lab/mbiomekit.git
+cd mbiomekit
 pip install -e .
 
 ## Usage 
@@ -25,13 +27,13 @@ pip install -e .
 ### Command-line 
 
 ```bash 
-my-app --help 
+mbiomekit --help 
 ```
 
 ### Python API
 
 ```python
-from my_package import main 
+from mbiomekit import main 
 
 if __name__ == "__main__":
     main()
