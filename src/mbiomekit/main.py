@@ -1,4 +1,5 @@
 import argparse
+import sys
 
 def main():
     parser = argparse.ArgumentParser(prog='Prog')
@@ -14,5 +15,8 @@ def main():
     # parse arguments 
     args = parser.parse_args()
 
-    print(args.bar)
+    # print(args.bar)
 
+    if not hasattr(args, 'func'):
+        parser.print_help()
+        sys.exit(0)

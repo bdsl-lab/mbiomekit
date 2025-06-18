@@ -1,4 +1,4 @@
-name: my_package
+name: mbiomekit
 channels:
   - defaults
   - conda-forge
@@ -8,7 +8,7 @@ dependencies:
   - numpy
   - pandas
   - setuptools
-  - build
+  - pytest
   - pip
   - pip:
     - -e .
