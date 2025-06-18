@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mbiomekit"
+version = "0.0.1"
+description = "A collection of Python toolkits for microbiome analysis."
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    {name = "Seungpyo Hong", email = "seungpyo.hong@jbnu.ac.kr"}, 
+]
+license = { file = "LICENSE" }
+dependencies = [
+  # Add your runtime dependencies 
+  # "numpy>=1.24",
+  # "pandas>=2.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+mbiomekit = "mbiomekit.main:main"

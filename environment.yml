@@ -1,0 +1,14 @@
+name: my_package
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - matplotlib
+  - numpy
+  - pandas
+  - setuptools
+  - build
+  - pip
+  - pip:
+    - -e .
