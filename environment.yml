@@ -4,11 +4,14 @@ channels:
   - conda-forge
 dependencies:
   - python=3.12
+  - ipykernel
   - matplotlib
   - numpy
   - pandas
   - setuptools
   - pytest
+  - scikit-learn 
+  - scikit-posthocs
   - pip
   - pip:
     - -e .
