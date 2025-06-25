@@ -6,7 +6,7 @@ import itertools
 
 import seaborn as sns
 import matplotlib.pyplot as plt
-# pdf.fonttype : 42 # Output Type 3 (Type3) or Type 42 (TrueType)
+
 plt.rcParams['font.size'] = 7
 plt.rcParams['font.family'] = 'Arial'
 plt.rcParams['pdf.fonttype'] = 42
@@ -33,7 +33,7 @@ class AlphaDiversityPlot:
         self.alpha_group = pd.concat(
             [self.df_alpha, self.df_group], axis=1, join='inner')
 
-    def plot_by_group(self, group_order=None, palette=None, alpha=0.8):
+    def plot_by_group(self, group_order=None, palette=None, alpha=0.8, fout=None):
         """
         Plot alpha diversity as a box plot. 
 
@@ -69,8 +69,9 @@ class AlphaDiversityPlot:
             group_order = list(set(self.df_group.values))
 
         # boxplot 
-        plt.figure(figsize=(1.5, 3))
-        ax = sns.boxplot(
+        fig = plt.figure(figsize=(1.5, 3))
+        ax = fig.add_subplot(111)
+        sns.boxplot(
             x=self.group_name, 
             y=self.alpha_name, 
             data=self.alpha_group, 
@@ -80,12 +81,13 @@ class AlphaDiversityPlot:
             linewidth=0.6,
             flierprops = flierprops,
             boxprops={'linewidth': 0, 'edgecolor': '#ffffff', 'alpha': alpha}, 
+            ax=ax,
         )
         
         # title and axes labels 
-        plt.title('Alpha Diversity')
-        plt.xlabel(self.group_name)
-        plt.ylabel(self.alpha_name)
+        ax.set_title('Alpha Diversity')
+        ax.set_label(self.group_name)
+        ax.set_ylabel(self.alpha_name)
         
         # statistical significance
         comparisons = list(itertools.combinations(group_order, 2))
@@ -109,10 +111,11 @@ class AlphaDiversityPlot:
                 x_center = (x1 + x2) / 2
                 sig_height_multiplier = 0.5 
                 line_height = height + y_offset * sig_height_multiplier
-                plt.plot([x1, x1, x2, x2], [height, line_height, line_height, height], lw=0.8, c='k')
-                plt.text(x_center, height + y_offset + (y_offset * -0.6), sig, ha='center', va='bottom', fontsize=7)
+                ax.plot([x1, x1, x2, x2], [height, line_height, line_height, height], lw=0.8, c='k')
+                ax.text(x_center, height + y_offset + (y_offset * -0.6), sig, ha='center', va='bottom', fontsize=7)
                 height += y_offset * 1.7
 
-
+        if fout:
+            fig.savefig(fout)
 
         
