@@ -42,7 +42,7 @@ class PlotterGroup:
             for g, v in row.items():
                 rs.append([id, g, v])
         rs = pd.DataFrame(rs, columns=['feature', 'group', 'proportion'])
-        fig = plt.figure(figsize=(3, 1.5))
+        fig = plt.figure(figsize=(2.25, 1.1))
         ax = fig.add_subplot(111)
 
         plot = sns.barplot(

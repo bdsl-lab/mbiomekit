@@ -33,10 +33,10 @@ class Plotter:
         else:
             rs = pd.DataFrame(rs, columns=['sid', label, abundance_label])
 
-        y_len = 0.5 * len(ft)
-        fig = plt.figure(figsize=(3, max([0.5, y_len])))
+        y_len = 0.375 * len(ft)
+        # fig = plt.figure(figsize=(1.5, max([0.375, y_len])))
         fig, (ax_box, ax_legend) = plt.subplots(ncols=2, figsize=(
-            6, max([0.5, y_len])), gridspec_kw={'width_ratios': [4, 1]})
+            3, max([0.375, y_len])), gridspec_kw={'width_ratios': [5, 2]})
 
         sns.boxplot(
             data=rs,
@@ -61,6 +61,9 @@ class Plotter:
 
     def plot_dunns_test_three_groups(self, fin_kruskal, fin_dunn, x_group, y_group, reference_group, fout=None, kruskal_wallis_cutoff=0.05):
         """
+        
+        Plot Group analysis results: Kruskal-Wallis followed by Dunn's test. 
+        
 
         group 0, 1, 2 (mean rank)
         between group p-value 
@@ -147,7 +150,7 @@ class Plotter:
         diff = pd.DataFrame(diff, columns=['x', 'y', 'kw_pv', 'color'])
 
         fig, (ax_box, ax_legend) = plt.subplots(
-            ncols=2, figsize=(5, 3), gridspec_kw={'width_ratios': [3, 2]})
+            ncols=2, figsize=(3.75, 2.25), gridspec_kw={'width_ratios': [3, 2]})
         sns.scatterplot(diff, x='x', y='y', size='kw_pv',
                         hue='color', palette=palette, ax=ax_box, zorder=10, hue_order=hue_order)
         ax_box.grid(zorder=1)
@@ -181,3 +184,6 @@ class Plotter:
 
         if fout:
             fig.savefig(fout)
+            
+        
+        

@@ -69,7 +69,7 @@ class AlphaDiversityPlot:
             group_order = list(set(self.df_group.values))
 
         # boxplot 
-        fig = plt.figure(figsize=(1.5, 3))
+        fig = plt.figure(figsize=(1.1, 2.25))
         ax = fig.add_subplot(111)
         sns.boxplot(
             x=self.group_name, 
