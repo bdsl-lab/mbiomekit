@@ -12,7 +12,7 @@ class Plotter:
     def __init__(self):
         pass
 
-    def plot_microbe_abundance(self, ft_input, palette=None, group_map=None, label='Label', abundance_label='Log-transformed abundance', group_label='group', hue_order=None, alpha=0.8):
+    def plot_microbe_abundance(self, ft_input, fout=None, palette=None, group_map=None, label='Label', abundance_label='Log-transformed abundance', group_label='group', hue_order=None, alpha=0.8):
         ft = ft_input.loc[:]
         ft += 1
         ft = np.log10(ft)
@@ -50,6 +50,11 @@ class Plotter:
         ax_legend.legend(handles, labels)
         ax_legend.axis("off") 
         ax_box.legend_.remove()
+        
+        if fout: 
+            fig.savefig(fout)
+
+
         
         
         
