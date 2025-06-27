@@ -80,30 +80,34 @@ class TSNEPlotter:
     
     def plot_aic_bic(self, fin, fout= 'aic_bic.pdf', palette={'aic': '#9fbcca', 'bic': '#326a81'}):
         aic_bic = pd.read_csv(fin, sep='\t', header=0, index_col=0)
-        fig = plt.figure(figsize=(3, 2))
+        fig = plt.figure(figsize=(2, 1.25))
         ax = fig.add_subplot(111)
  
         ns = aic_bic.index
         aic_values = aic_bic['AIC']
         bic_values = aic_bic['BIC']
  
-        ax.plot(ns, aic_values, label='AIC', marker='o', linewidth=1, c=palette['aic'], zorder=5)
-        ax.plot(ns, bic_values, label='BIC', marker='o', linewidth=1, c=palette['bic'], zorder=10)
+        ax.plot(ns, aic_values, label='AIC', marker='o', linewidth=1, c=palette['aic'], zorder=5, markersize=5)
+        ax.plot(ns, bic_values, label='BIC', marker='o', linewidth=1, c=palette['bic'], zorder=10, markersize=5)
         ax.set_xlabel('Number of clusters')
         ax.set_ylabel('AIC/BIC')
         ax.set_title('AIC and BIC for Different Numbers of Clusters')
         ax.legend()
         ax.grid(zorder=1)
         
-        fig.savefig(fout)
+        if fout:
+            fig.savefig(fout)
     
-    def plot_tsne_cluster(self, fin, palette=None):
+    def plot_tsne_cluster(self, fin, fout=None, palette=None):
         tsne_c = pd.read_csv(fin, sep='\t', header=0, index_col=0)
 
-        fig = plt.figure(figsize=(3, 3))
+        fig = plt.figure(figsize=(2, 2))
         ax = fig.add_subplot(111)
         
-        sns.scatterplot(tsne_c, x='tSNE-1', y='tSNE-2', hue='cluster', ax=ax, zorder=10, palette=palette)
+        sns.scatterplot(tsne_c, x='tSNE-1', y='tSNE-2', hue='cluster', ax=ax, zorder=10, palette=palette, s=20)
         ax.grid(zorder=2)
+
+        if fout:
+            fig.savefig(fout)
     
     
