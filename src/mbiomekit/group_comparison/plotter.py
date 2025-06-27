@@ -59,7 +59,7 @@ class Plotter:
         if fout:
             fig.savefig(fout)
 
-    def plot_dunns_test_three_groups(self, fin_kruskal, fin_dunn, x_group, y_group, reference_group, fout=None, kruskal_wallis_cutoff=0.05):
+    def plot_dunns_test_three_groups(self, fin_kruskal, fin_dunn, x_group, y_group, reference_group, n_samples, output_figure=None, fout=None, kruskal_wallis_cutoff=0.05):
         """
         
         Plot Group analysis results: Kruskal-Wallis followed by Dunn's test. 
@@ -130,9 +130,9 @@ class Plotter:
             else:
                 dg = 'none'
             kw_pv = -np.log10(rs_kw_sig.loc[ft, 'adjusted-p'])
-            v1 = v1 / 500
-            v2 = v2 / 500
-            diff.append([v1, v2, kw_pv, dg])
+            v1 = v1 / n_samples
+            v2 = v2 / n_samples
+            diff.append([ft, v1, v2, kw_pv, dg])
 
         palette = {'all_diff': '#7876b1c0',
                    'ref_specific': '#20854ea0',
@@ -147,12 +147,12 @@ class Plotter:
                      'y_specific', 'x_specific', 'ref_specific',
                      'y_ref_only', 'x_ref_only', 'x_y_only', 'none']
 
-        diff = pd.DataFrame(diff, columns=['x', 'y', 'kw_pv', 'color'])
+        diff = pd.DataFrame(diff, columns=['feature', 'x', 'y', 'kw_pv', 'difference_group'])
 
         fig, (ax_box, ax_legend) = plt.subplots(
             ncols=2, figsize=(3.75, 2.25), gridspec_kw={'width_ratios': [3, 2]})
         sns.scatterplot(diff, x='x', y='y', size='kw_pv',
-                        hue='color', palette=palette, ax=ax_box, zorder=10, hue_order=hue_order)
+                        hue='difference_group', palette=palette, ax=ax_box, zorder=10, hue_order=hue_order)
         ax_box.grid(zorder=1)
         mx = np.max([diff['x'].abs().max(), diff['y'].abs().max()])
         ax_box.plot([-mx*1.05, mx*1.05], [-mx*1.05, mx*1.05],
@@ -175,6 +175,11 @@ class Plotter:
                       f'{y_group} spec.', f'{x_group} spec.', f'{reference_group} spec.', 
                       f'{y_group}-{reference_group} diff.', f'{x_group}-{reference_group} diff.', f'{x_group}-{y_group} diff.',
                       'None']
+    
+        label_map = {}
+        for i, dg in enumerate(hue_order):
+            label_map[dg] = new_labels[i]
+    
         # ax_legend.legend(handles, labels=new_labels, title='Difference group')
         labels[0] = 'Difference group'
         labels = ['Difference group'] + new_labels + \
@@ -182,8 +187,12 @@ class Plotter:
         ax_legend.legend(handles, labels)
         ax_box.legend_.remove()
 
+        if output_figure:
+            fig.savefig(output_figure)
+        
         if fout:
-            fig.savefig(fout)
-            
+            diff['difference_group'] = diff['difference_group'].map(label_map)
+            diff.sort_values(['difference_group', 'kw_pv'], inplace=True, ascending=False)
+            diff.to_csv(fout, sep='\t')
         
         
