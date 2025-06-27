@@ -33,7 +33,7 @@ class AlphaDiversityPlot:
         self.alpha_group = pd.concat(
             [self.df_alpha, self.df_group], axis=1, join='inner')
 
-    def plot_by_group(self, group_order=None, palette=None, alpha=0.8, fout=None):
+    def plot_by_group(self, group_order=None, palette=None, alpha=0.8, fout=None, ylim=None):
         """
         Plot alpha diversity as a box plot. 
 
@@ -114,6 +114,9 @@ class AlphaDiversityPlot:
                 ax.plot([x1, x1, x2, x2], [height, line_height, line_height, height], lw=0.8, c='k')
                 ax.text(x_center, height + y_offset + (y_offset * -0.6), sig, ha='center', va='bottom', fontsize=7)
                 height += y_offset * 1.7
+        
+        if ylim:
+            ax.set_ylim(ylim)
 
         if fout:
             fig.savefig(fout)
