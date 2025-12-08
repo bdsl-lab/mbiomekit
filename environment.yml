@@ -12,6 +12,8 @@ dependencies:
   - pytest
   - scikit-learn 
   - scikit-posthocs
+  - venn
+  - shap
   - pip
   - pip:
     - -e .

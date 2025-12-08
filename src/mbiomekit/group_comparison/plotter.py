@@ -195,4 +195,14 @@ class Plotter:
             diff.sort_values(['difference_group', 'kw_pv'], inplace=True, ascending=False)
             diff.to_csv(fout, sep='\t')
         
-        
+   
+
+class PlotterComparative:
+    def __init__(self):
+        pass     
+
+    def plot_shared(self):
+        pass
+
+    def plot_microbe_abundance_by_group(self):
+        pass  

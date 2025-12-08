@@ -20,6 +20,8 @@ dependencies = [
 classifiers = [
     "Programming Language :: Python :: 3",
 ]
+[tool.setuptools.package-data]
+"mbiomekit.data" = ["**/*"]
 
 [project.scripts]
 mbiomekit = "mbiomekit.main:main"

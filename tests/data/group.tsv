@@ -1,0 +1,484 @@
+label	Unnamed: 0	chart_review_id	id_16S	id_metabolite	disease_status	group1	group2	group3	group4
+PV127	444		P14	156	Prevent	Prevent			
+PD89	88	G71	G50	366	UC	Predict			
+PD125	124	G110	G89	448	CD	Predict			
+PV132	449		P2	144	Prevent	Prevent			
+PD157	156	S142	PRH126	527	UC	Predict			
+PD39	38	G143	G130	475	UC	Predict			
+PD32	31	G135	G122	468	UC	Predict			
+PV111	428		H134	427	Prevent	Prevent			
+PV72	389		H94	297	Prevent	Prevent			
+CT41	301		S5	584	Control	Healthy			
+PV42	359		H65	264	Prevent	Prevent			
+PD119	118	G104	G83	442	UC	Predict			
+CT9	269		B7	195	Control	Healthy			
+PD24	23	G128	G115	461	UC	Predict			
+PD223	222	S33	PRH70	234	CD	Predict			
+PD235	234	S39	PRH81	222	CD	Predict			
+CT10	270		B8	196	Control	Healthy			
+CT54	314		S18	597	Control	Healthy			
+PD85	84	G67	G47	337	UC	Predict			
+PD198	197	S97	PRH37	32	UC	Predict			
+CT53	313		S17	596	Control	Healthy			
+PD148	147	S8	PRH111	241	UC	Predict			
+CT57	317		PR25	600	Control	Healthy			
+PD239	238	S121	PRH85	218	UC	Predict			
+PD76	75	G58	G39	332	CD	Predict			
+PD179	178	S12	PRH18	106	UC	Predict			
+PV25	342		H36	79	Prevent	Prevent			
+PD96	95	G80	G59	343	CD	Predict			
+PV155	472		P54	410	Prevent	Prevent			
+PD77	76	G59	G4	171	CD	Predict			
+PV70	387		H91	294	Prevent	Prevent			
+PD93	92	G76	G56	342	UC	Predict			
+PD207	206	S20	PRH47	2	UC	Predict			
+PD225	224	S35	PRH72	232	CD	Predict			
+PD203	202	S104	PRH43	97	UC	Predict			
+PD190	189	S90	PRH29	27	UC	Predict			
+PD29	28	G41	G12	179	CD	Predict			
+PD249	248	S126	PRH95	209	CD	Predict			
+PV123	440		H148	440	Prevent	Prevent			
+PD63	62	G47	G27	322	UC	Predict			
+CT49	309		S13	592	Control	Healthy			
+PD122	121	G107	G86	445	UC	Predict			
+PD231	230	S131	PRH78	225	UC	Predict			
+PD144	143	S73	PRH108	244	CD	Predict			
+PV76	393		H98	301	Prevent	Prevent			
+PD168	167	S160	PRH144	538	CD	Predict			
+CT47	307		S11	590	Control	Healthy			
+PD100	99	G84	G63	346	CD	Predict			
+PD4	3	S183	bio15	516	CD	Predict			
+PD103	102	G87	G66	349	UC	Predict			
+PV31	348		H43	84	Prevent	Prevent			
+CT12	272		PR1	33	Control	Healthy			
+PV122	439		H142	439	Prevent	Prevent			
+CT45	305		S9	588	Control	Healthy			
+PD88	87	G70	G5	172	UC	Predict			
+PD28	27	G132	G119	465	CD	Predict			
+PD136	135	S3	PRH100	252	UC	Predict			
+PV133	450		P20	162	Prevent	Prevent			
+PV74	391		H92	295	Prevent	Prevent			
+PV151	468		P50	406	Prevent	Prevent			
+PD79	78	G61	G41	363	UC	Predict			
+CT39	299		S3	582	Control	Healthy			
+PD90	89	G72	G51	340	CD	Predict			
+PV149	466		P4	146	Prevent	Prevent			
+PD165	164	S150	PRH134	535	UC	Predict			
+PV134	451		P21	163	Prevent	Prevent			
+PV79	396		H99	302	Prevent	Prevent			
+PD224	223	S34	PRH71	233	UC	Predict			
+PD17	16	G1	G1	168	UC	Predict			
+PD236	235	S40	PRH82	221	UC	Predict			
+PD8	7	S180	bio20	521	CD	Predict			
+PV143	460		P32	311	Prevent	Prevent			
+PD147	146	S7	PRH110	242	CD	Predict			
+PD234	233	S37	PRH80	223	UC	Predict			
+PV61	378		H80	282	Prevent	Prevent			
+PD164	163	S149	PRH133	534	CD	Predict			
+PD106	105	G90	G69	352	UC	Predict			
+PD80	79	G62	G42	364	CD	Predict			
+CT20	280		PR19	51	Control	Healthy			
+PD192	191	S91	PRH30	21	UC	Predict			
+PD53	52	G31	G18	185	UC	Predict			
+PV85	402		H108	378	Prevent	Prevent			
+PV16	333		H71	272	Prevent	Prevent			
+PV118	435		H144	437	Prevent	Prevent			
+PD182	181	S85	PRH20	99	UC	Predict			
+PD21	20	G124	G105	459	UC	Predict			
+PD16	15	S201	Bio9	510	CD	Predict			
+PD2	1	S203	bio12	513	UC	Predict			
+PV63	380		H82	284	Prevent	Prevent			
+PV106	423		H130	422	Prevent	Prevent			
+PV121	438		H147	428	Prevent	Prevent			
+PD191	190	S15	PRH3	4	UC	Predict			
+PV145	462		P34	313	Prevent	Prevent			
+CT26	286		PR28	56	Control	Healthy			
+PD104	103	G88	G67	350	UC	Predict			
+PV163	480		P61	417	Prevent	Prevent			
+PD25	24	G129	G116	462	UC	Predict			
+PD230	229	S119	PRH77	226	CD	Predict			
+PD91	90	G74	G54	368	CD	Predict			
+PV157	474		P56	412	Prevent	Prevent			
+PV103	420		H127	419	Prevent	Prevent			
+PD161	160	S79	PRH13	93	UC	Predict			
+PD58	57	G43	G22	317	UC	Predict			
+PD156	155	S141	PRH125	526	UC	Predict			
+PV124	441		P1	143	Prevent	Prevent			
+PD170	169	S11	PRH15	105	CD	Predict			
+PD167	166	S157	PRH141	537	CD	Predict			
+PV30	347		H96	299	Prevent	Prevent			
+CT44	304		S8	587	Control	Healthy			
+PV55	372		H75	277	Prevent	Prevent			
+PD52	51	G30	G17	184	CD	Predict			
+CT8	268		B6	194	Control	Healthy			
+PV5	322		H10	61	Prevent	Prevent			
+PD183	182	S13	PRH21	107	UC	Predict			
+PV108	425		H141	429	Prevent	Prevent			
+PV109	426		H132	424	Prevent	Prevent			
+PD116	115	G39	G8	175	CD	Predict			
+PV147	464		P36	315	Prevent	Prevent			
+PV29	346		H41	83	Prevent	Prevent			
+PV59	376		H84	286	Prevent	Prevent			
+PD240	239	S43	PRH86	217	CD	Predict			
+PD140	139	S69	PRH104	248	CD	Predict			
+PV27	344		H39	81	Prevent	Prevent			
+PD177	176	S182	PRH165	545	CD	Predict			
+PV24	341		H35	78	Prevent	Prevent			
+PV36	353		H49	87	Prevent	Prevent			
+CT3	263		B12	200	Control	Healthy			
+PV116	433		H138	433	Prevent	Prevent			
+CT33	293		PR6	38	Control	Healthy			
+PD41	40	G145	G132	477	UC	Predict			
+PV2	319		H60	256	Prevent	Prevent			
+PV80	397		H103	373	Prevent	Prevent			
+PD221	220	S32	PRH68	236	CD	Predict			
+CT19	279		PR18	50	Control	Healthy			
+PD247	246	S46	PRH93	211	CD	Predict			
+PV144	461		P33	312	Prevent	Prevent			
+PD220	219	S31	PRH67	134	CD	Predict			
+PD71	70	G53	G34	328	CD	Predict			
+PV112	429		H135	425	Prevent	Prevent			
+PV91	408		H115	441	Prevent	Prevent			
+PV21	338		H102	372	Prevent	Prevent			
+CT27	287		PR29	57	Control	Healthy			
+PD69	68	G51	G32	361	CD	Predict			
+PD13	12	S196	Bio5	506	CD	Predict			
+PD130	129	G115	G94	453	CD	Predict			
+PV125	442		P12	154	Prevent	Prevent			
+CT55	315		S19	598	Control	Healthy			
+CT1	261		B10	198	Control	Healthy			
+PV3	320		H59	254	Prevent	Prevent			
+PV130	447		P17	159	Prevent	Prevent			
+CT13	273		PR10	42	Control	Healthy			
+CT29	289		PR31	58	Control	Healthy			
+PD110	109	G93	G72	355	UC	Predict			
+PV9	326		H16	65	Prevent	Prevent			
+PV11	328		H18	67	Prevent	Prevent			
+PD186	185	S128	PRH25	111	UC	Predict			
+PD222	221	S115	PRH69	235	UC	Predict			
+PV40	357		H51	136	Prevent	Prevent			
+PD137	136	S4	PRH101	251	UC	Predict			
+PV51	368		H56	141	Prevent	Prevent			
+PD208	207	S107	PRH48	88	UC	Predict			
+PV154	471		P53	409	Prevent	Prevent			
+PD95	94	G78	G58	370	CD	Predict			
+CT28	288		PR3	35	Control	Healthy			
+PD87	86	G69	G49	339	CD	Predict			
+PD123	122	G108	G87	446	CD	Predict			
+PD40	39	G144	G131	476	UC	Predict			
+PV88	405		H111	381	Prevent	Prevent			
+PV93	410		H117	385	Prevent	Prevent			
+PD252	251	S47	PRH99	205	UC	Predict			
+PD259	258	최민수	G154	499		Predict			
+PD10	9	S213	bio22	523	UC	Predict			
+PD78	77	G60	G40	333	UC	Predict			
+PD188	187	S88	PRH27	114	UC	Predict			
+PD132	131	G117	G96	455	UC	Predict			
+PD35	34	G140	G127	472	UC	Predict			
+PV138	455		P26	305	Prevent	Prevent			
+PD111	110	G94	G73	356	UC	Predict			
+PD74	73	G56	G37	330	CD	Predict			
+PV47	364		H55	140	Prevent	Prevent			
+PD250	249	S49	PRH96	208	CD	Predict			
+PD101	100	G85	G64	347	UC	Predict			
+PD134	133	S68	PRH1	1	UC	Predict			
+PD118	117	G103	G82	371	UC	Predict			
+PV6	323		H11	62	Prevent	Prevent			
+PV75	392		H93	296	Prevent	Prevent			
+PD49	48	G153	G140	485	UC	Predict			
+PD175	174	S171	PRH155	544	CD	Predict			
+PD184	183	S86	PRH22	108	UC	Predict			
+PV13	330		H21	69	Prevent	Prevent			
+PV142	459		P31	310	Prevent	Prevent			
+PD151	150	S77	PRH114	238	CD	Predict			
+PV14	331		H22	70	Prevent	Prevent			
+PD215	214	S114	PRH6	10	UC	Predict			
+CT51	311		S15	594	Control	Healthy			
+PD194	193	S93	PRH32	101	CD	Predict			
+CT15	275		PR13	46	Control	Healthy			
+PV136	453		P23	165	Prevent	Prevent			
+CT37	297		S1	580	Control	Healthy			
+PD255	254	박진아	G148	493		Predict			
+PV65	382		H83	285	Prevent	Prevent			
+PD129	128	G114	G93	452	UC	Predict			
+CT7	267		B5	193	Control	Healthy			
+PV131	448		P18	160	Prevent	Prevent			
+CT4	264		B13	201	Control	Healthy			
+PD113	112	G98	G77	358	UC	Predict			
+PV96	413		H120	388	Prevent	Prevent			
+CT38	298		S2	581	Control	Healthy			
+PD226	225	S117	PRH73	231	UC	Predict			
+PV126	443		P13	155	Prevent	Prevent			
+PV158	475		P57	413	Prevent	Prevent			
+PD97	96	G81	G6	173	CD	Predict			
+PD138	137	S5	PRH102	250	UC	Predict			
+PD23	22	G127	G111	460	CD	Predict			
+PD171	170	S166	PRH150	540	CD	Predict			
+PD75	74	G57	G38	331	UC	Predict			
+PD117	116	G102	G81	19	UC	Predict			
+PD193	192	S92	PRH31	8	UC	Predict			
+PD47	46	G152	G139	484	UC	Predict			
+PD153	152	S78	PRH12	92	UC	Predict			
+PD233	232	S38	PRH8	14	UC	Predict			
+PV115	432		H143	435	Prevent	Prevent			
+PD159	158	S144	PRH128	529	UC	Predict			
+PV139	456		P27	306	Prevent	Prevent			
+PV165	482		P8	150	Prevent	Prevent			
+PV19	336		H30	74	Prevent	Prevent			
+PD160	159	S145	PRH129	530	CD	Predict			
+PD214	213	S18	PRH56	104	UC	Predict			
+PV1	318		H58	253	Prevent	Prevent			
+PD155	154	S140	PRH124	525	UC	Predict			
+PV135	452		P22	164	Prevent	Prevent			
+CT52	312		S16	595	Control	Healthy			
+PD7	6	S191	bio2	503	UC	Predict			
+PD238	237	S41	PRH84	219	UC	Predict			
+PD61	60	G45	G25	320	UC	Predict			
+PD34	33	G139	G126	471	UC	Predict			
+CT35	295		PR8	40	Control	Healthy			
+PV48	365		H69	270	Prevent	Prevent			
+CT31	291		PR4	36	Control	Healthy			
+PD65	64	G48	G29	324	UC	Predict			
+PD70	69	G52	G33	327	UC	Predict			
+PV84	401		H106	376	Prevent	Prevent			
+CT22	282		PR20	52	Control	Healthy			
+PD201	200	S102	PRH41	16	UC	Predict			
+PV38	355		H63	260	Prevent	Prevent			
+PD133	132	G120	G99	456	UC	Predict			
+PD38	37	G26	G13	180	UC	Predict			
+PD33	32	G137	G124	469	UC	Predict			
+PD59	58	G35	G23	318	UC	Predict			
+PD66	65	G49	G3	170	UC	Predict			
+PD261	260	한수현	G156	501		Predict			
+PD60	59	G44	G24	319	UC	Predict			
+PV4	321		H61	257	Prevent	Prevent			
+PD174	173	S170	PRH154	543	CD	Predict			
+PD244	243	S124	PRH9	15	UC	Predict			
+PV148	465		P37	316	Prevent	Prevent			
+PD42	41	G146	G133	478	UC	Predict			
+PD6	5	S206	Bio19	520	CD	Predict			
+PD108	107	G38	G70	353	UC	Predict			
+PD145	144	S74	PRH109	243	UC	Predict			
+CT6	266		B15	203	Control	Healthy			
+PD46	45	G151	G138	483	CD	Predict			
+CT34	294		PR7	39	Control	Healthy			
+CT25	285		PR27	55	Control	Healthy			
+PD14	13	S197	bio6	507	UC	Predict			
+PD217	216	S27	PRH64	131	CD	Predict			
+PD98	97	G82	G61	344	CD	Predict			
+PD260	259	최지원	G155	500		Predict			
+PV50	367		H74	275	Prevent	Prevent			
+PD48	47	G27	G14	181	UC	Predict			
+PD142	141	S71	PRH106	246	CD	Predict			
+PV34	351		H64	262	Prevent	Prevent			
+PD121	120	G106	G85	444	CD	Predict			
+CT50	310		S14	593	Control	Healthy			
+PD57	56	G34	G21	188	CD	Predict			
+PD37	36	G142	G129	474	UC	Predict			
+PD30	29	G133	G120	466	CD	Predict			
+PV129	446		P16	158	Prevent	Prevent			
+PD105	104	G89	G68	351	UC	Predict			
+PV18	335		H29	73	Prevent	Prevent			
+PV161	478		P6	148	Prevent	Prevent			
+PV26	343		H38	80	Prevent	Prevent			
+PD114	113	G99	G78	359	UC	Predict			
+PD173	172	S169	PRH153	542	CD	Predict			
+PV69	386		H88	291	Prevent	Prevent			
+PV86	403		H109	379	Prevent	Prevent			
+PD206	205	S148	PRH46	533	UC	Predict			
+PD180	179	S83	PRH19	98	UC	Predict			
+PD20	19	G123	G104	458	UC	Predict			
+PD154	153	S139	PRH123	524	UC	Predict			
+PD227	226	S118	PRH74	230	CD	Predict			
+PD55	54	G42	G2	169	CD	Predict			
+PD72	71	G54	G35	362	UC	Predict			
+PD196	195	S95	PRH35	5	UC	Predict			
+PV60	377		H77	279	Prevent	Prevent			
+PD99	98	G83	G62	345	CD	Predict			
+PV114	431		H137	432	Prevent	Prevent			
+PV53	370		H57	142	Prevent	Prevent			
+PD11	10	S192	bio3	504	UC	Predict			
+PV153	470		P52	408	Prevent	Prevent			
+PD19	18	G122	G102	457	CD	Predict			
+PV73	390		H97	300	Prevent	Prevent			
+PD189	188	S89	PRH28	23	UC	Predict			
+PD12	11	S193	Bio4	505	CD	Predict			
+PD92	91	G75	G55	341	CD	Predict			
+PV10	327		H17	66	Prevent	Prevent			
+PV102	419		H126	418	Prevent	Prevent			
+PD15	14	S200	bio8	509	CD	Predict			
+CT18	278		PR17	49	Control	Healthy			
+PV33	350		H46	85	Prevent	Prevent			
+CT11	271		B9	197	Control	Healthy			
+PV67	384		H90	293	Prevent	Prevent			
+PD150	149	S76	PRH113	239	UC	Predict			
+PD94	93	G77	G57	369	CD	Predict			
+PD18	17	G25	G10	177	UC	Predict			
+PD54	53	G32	G19	186	UC	Predict			
+PD166	165	S80	PRH14	94	UC	Predict			
+PD241	240	S45	PRH87	216	CD	Predict			
+PV78	395		H95	298	Prevent	Prevent			
+PD187	186	S87	PRH26	112	UC	Predict			
+CT32	292		PR5	37	Control	Healthy			
+PD248	247	S48	PRH94	210	CD	Predict			
+PD109	108	G92	G71	354	UC	Predict			
+PV89	406		H112	382	Prevent	Prevent			
+PD232	231	S120	PRH79	224	UC	Predict			
+PD213	212	S111	PRH52	30	UC	Predict			
+PD251	250	S127	PRH97	207	CD	Predict			
+PD146	145	S75	PRH11	91	UC	Predict			
+PV49	366		H73	274	Prevent	Prevent			
+PV150	467		P5	147	Prevent	Prevent			
+PD82	81	G64	G44	334	CD	Predict			
+PV105	422		H129	421	Prevent	Prevent			
+PV45	362		H53	138	Prevent	Prevent			
+PD128	127	G113	G92	451	UC	Predict			
+PD73	72	G55	G36	329	CD	Predict			
+PD209	208	S108	PRH49	7	UC	Predict			
+PV107	424		H131	423	Prevent	Prevent			
+CT48	308		S12	591	Control	Healthy			
+PD26	25	G130	G117	463	UC	Predict			
+PV43	360		H66	266	Prevent	Prevent			
+PV152	469		P51	407	Prevent	Prevent			
+PV77	394		H101	304	Prevent	Prevent			
+CT42	302		S6	585	Control	Healthy			
+PD36	35	G141	G128	473	UC	Predict			
+PD254	253	김우찬	G144	489		Predict			
+PV7	324		H14	63	Prevent	Prevent			
+CT14	274		PR12	43	Control	Healthy			
+PV146	463		P35	314	Prevent	Prevent			
+PV92	409		H116	384	Prevent	Prevent			
+PV62	379		H85	287	Prevent	Prevent			
+PV56	373		H78	280	Prevent	Prevent			
+PV81	398		H100	303	Prevent	Prevent			
+PD126	125	G111	G90	449	UC	Predict			
+PV17	334		H27	72	Prevent	Prevent			
+CT16	276		PR15	47	Control	Healthy			
+PD245	244	S125	PRH90	213	UC	Predict			
+CT21	281		PR2	34	Control	Healthy			
+PD67	66	G50	G30	325	CD	Predict			
+PD181	180	S84	PRH2	3	UC	Predict			
+PD229	228	S29	PRH76	228	CD	Predict			
+PV166	483		P9	151	Prevent	Prevent			
+PD210	209	S109	PRH5	9	UC	Predict			
+PV82	399		H104	374	Prevent	Prevent			
+PD152	151	S10	PRH115	237	UC	Predict			
+PD218	217	S28	PRH65	132	UC	Predict			
+PD216	215	S26	PRH63	130	CD	Predict			
+CT2	262		B11	199	Control	Healthy			
+PV46	363		H54	139	Prevent	Prevent			
+PD163	162	S147	PRH131	532	CD	Predict			
+PD200	199	S100	PRH4	6	UC	Predict			
+PD242	241	S122	PRH88	215	UC	Predict			
+PV87	404		H110	380	Prevent	Prevent			
+PD199	198	S16	PRH39	100	UC	Predict			
+PV41	358		H52	137	Prevent	Prevent			
+PD204	203	S19	PRH44	89	UC	Predict			
+PD5	4	S205	bio17	518	UC	Predict			
+CT30	290		PR32	59	Control	Healthy			
+PD127	126	G112	G91	450	UC	Predict			
+PD51	50	G29	G16	183	UC	Predict			
+CT17	277		PR16	48	Control	Healthy			
+CT56	316		B21	599	Control	Healthy			
+PD120	119	G105	G84	443	UC	Predict			
+CT43	303		S7	586	Control	Healthy			
+PD162	161	S146	PRH130	531	UC	Predict			
+PD27	26	G131	G118	464	UC	Predict			
+PV119	436		H145	438	Prevent	Prevent			
+CT5	265		B14	202	Control	Healthy			
+PV23	340		H34	77	Prevent	Prevent			
+PV71	388		H89	292	Prevent	Prevent			
+PV83	400		H105	375	Prevent	Prevent			
+PV39	356		H50	135	Prevent	Prevent			
+PV97	414		H121	389	Prevent	Prevent			
+PV12	329		H19	68	Prevent	Prevent			
+PV104	421		H128	420	Prevent	Prevent			
+PV8	325		H15	64	Prevent	Prevent			
+PD258	257	정인호	G153	498		Predict			
+PD176	175	S81	PRH16	96	UC	Predict			
+PD143	142	S72	PRH107	245	UC	Predict			
+PV28	345		H40	82	Prevent	Prevent			
+PV128	445		P15	157	Prevent	Prevent			
+PD185	184	S14	PRH23	109	UC	Predict			
+PV35	352		H48	86	Prevent	Prevent			
+PD253	252	고윤서	G141	486		Predict			
+PD149	148	S9	PRH112	240	CD	Predict			
+PD158	157	S143	PRH127	528	UC	Predict			
+PV113	430		H136	430	Prevent	Prevent			
+CT46	306		S10	589	Control	Healthy			
+PV66	383		H86	288	Prevent	Prevent			
+PD107	106	G91	G7	174	CD	Predict			
+PD1	0	S189	bio1	502	UC	Predict			
+PD56	55	G33	G20	187	CD	Predict			
+PD135	134	S2	PRH10	103	UC	Predict			
+CT40	300		S4	583	Control	Healthy			
+PD172	171	S168	PRH152	541	UC	Predict			
+PV100	417		H123	391	Prevent	Prevent			
+CT24	284		PR23	54	Control	Healthy			
+PD169	168	S164	PRH148	539	UC	Predict			
+PD139	138	S6	PRH103	249	UC	Predict			
+PD84	83	G66	G46	336	UC	Predict			
+PV99	416		H125	393	Prevent	Prevent			
+CT36	296		PR9	41	Control	Healthy			
+PD256	255	이재준	G150	495		Predict			
+PD44	43	G149	G136	481	CD	Predict			
+PD257	256	정세호	G152	497		Predict			
+PD112	111	G95	G74	357	UC	Predict			
+PV20	337		H31	75	Prevent	Prevent			
+PV64	381		H81	283	Prevent	Prevent			
+PV156	473		P55	411	Prevent	Prevent			
+PD243	242	S123	PRH89	214	UC	Predict			
+PV94	411		H118	386	Prevent	Prevent			
+PD211	210	S110	PRH50	90	UC	Predict			
+PD228	227	S36	PRH75	229	UC	Predict			
+PD197	196	S96	PRH36	24	UC	Predict			
+PV140	457		P29	308	Prevent	Prevent			
+PD131	130	G116	G95	454	UC	Predict			
+PV137	454		P25	167	Prevent	Prevent			
+PV54	371		H70	271	Prevent	Prevent			
+PD237	236	S42	PRH83	220	CD	Predict			
+PD178	177	S82	PRH17	113	CD	Predict			
+PD246	245	S44	PRH91	212	UC	Predict			
+PV22	339		H33	76	Prevent	Prevent			
+PV162	479		P60	416	Prevent	Prevent			
+PV32	349		H67	267	Prevent	Prevent			
+PD62	61	G46	G26	321	UC	Predict			
+PD219	218	S30	PRH66	133	UC	Predict			
+PD81	80	G63	G43	365	CD	Predict			
+PD86	85	G68	G48	338	UC	Predict			
+PD3	2	S204	bio13	514	CD	Predict			
+PV101	418		H124	392	Prevent	Prevent			
+PD45	44	G150	G137	482	UC	Predict			
+PV58	375		H76	278	Prevent	Prevent			
+PD102	101	G86	G65	348	UC	Predict			
+PD212	211	S21	PRH51	102	CD	Predict			
+PV44	361		H68	268	Prevent	Prevent			
+PV159	476		P58	414	Prevent	Prevent			
+PD9	8	S212	Bio21	522	UC	Predict			
+PV57	374		H79	281	Prevent	Prevent			
+PV37	354		H62	259	Prevent	Prevent			
+PV90	407		H113	383	Prevent	Prevent			
+PD64	63	G36	G28	323	UC	Predict			
+PV160	477		P59	415	Prevent	Prevent			
+PV98	415		H122	390	Prevent	Prevent			
+PV141	458		P30	309	Prevent	Prevent			
+PD50	49	G28	G15	182	CD	Predict			
+PD195	194	S94	PRH33	17	UC	Predict			
+PD124	123	G109	G88	447	UC	Predict			
+PD115	114	G100	G79	360	UC	Predict			
+PD83	82	G65	G45	335	UC	Predict			
+PV117	434		H140	431	Prevent	Prevent			
+PD202	201	S103	PRH42	95	UC	Predict			
+PD68	67	G37	G31	326	CD	Predict			
+PD31	30	G134	G121	467	UC	Predict			
+PD141	140	S70	PRH105	247	CD	Predict			
+PV15	332		H25	71	Prevent	Prevent			
+PV110	427		H133	426	Prevent	Prevent			
+PD205	204	S105	PRH45	25	UC	Predict			
+PV120	437		H146	436	Prevent	Prevent			
+PV164	481		P7	149	Prevent	Prevent			
+PV68	385		H87	289	Prevent	Prevent			
+PV95	412		H119	387	Prevent	Prevent			
+PD43	42	G147	G134	479	CD	Predict			
+PV52	369		H72	273	Prevent	Prevent			
+CT23	283		PR21	53	Control	Healthy			
